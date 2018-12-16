@@ -14,7 +14,7 @@ function addImage(file) {
     '  </ul>' +
     '</div>'+
     ' <input type="hidden" class="hue" name="hue">'+
-    ' <input class="btn btn-primary center" type="submit" name="submit" value="Upload Image">';
+    ' <br><input class="btn btn-primary center" type="submit" name="submit" value="Upload Image">';
 
   var img = element.querySelector('img');
   img.src = URL.createObjectURL(file);

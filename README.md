@@ -17,3 +17,9 @@ The project is made with Laravel(php)
 <li>Run php artisan migrate</li>
 <li>Run php artisan serve</li>
 </ol>
+
+
+#
+<li>Extracting the average hue is done in average-hue.js with the help of HTML5 <canvas> element(meaning would not work in IE9 or lower) and is done by traversing every pixel of the image as you would traverse a 2d array, and getting the RGB out that, averaging the RGB values we can convert them to HSL and Average hue is gathered </li>
+
+<li>Jquery and Ajax is used for image listing, updated results are displayed from filter.blade.php</li>

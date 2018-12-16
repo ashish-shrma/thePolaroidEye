@@ -17,7 +17,7 @@ class imageController extends Controller
     	$end = $request->end;
     	
 
-    	 $images = Images::whereBetween('hue', [$start, $end])->get();
+    	 $images = Images::whereBetween('hue', [$start, $end])->orderBy('hue')->get();
 
     	 return view('filter', compact('images'));
     	}

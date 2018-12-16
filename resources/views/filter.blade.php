@@ -7,7 +7,7 @@
 
 
 				<div class="landscape">
-				<ul id="image-ul">
+				<ul id="image-ul" class="ul-style">
 
 					<li>
 					<img src="{{ asset("storage/$image->photo") }}"> <br>

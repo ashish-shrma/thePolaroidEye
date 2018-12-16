@@ -19,7 +19,7 @@
                   <input type="hidden" name="_token" value="{{ csrf_token() }}">
                     <div id="target">
                        Click to upload
-                          <input type="file" id="upload" name="photo" multiple />
+                          <input type="file" id="upload" name="photo" accept="image/*" multiple />
                         </div>
                         <div id="images"></div>
 
